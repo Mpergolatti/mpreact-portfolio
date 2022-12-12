@@ -27,6 +27,11 @@ class App extends Component {
 
           </div>
         </div>
+        <footer>
+          <div>
+            <h1>This is the footer</h1>
+          </div>
+        </footer>
       </HashRouter>
       
     )

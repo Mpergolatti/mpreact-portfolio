@@ -8,7 +8,7 @@ class About extends Component {
         <img
           src={require('../../assets/images/Jaime_and_I.jpg')}
           alt='My Fiance and I'
-          className='Photo' />
+          className='photo' />
         <p>This is going to be my description</p>
       </section>
     )
