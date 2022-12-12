@@ -56,3 +56,68 @@ ul.header li a {
 .photo {
   max-width: 300px;
 }
+
+/* Contact Section */
+
+.full_form {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 3px solid #023e8a;
+  border-radius: 12px;
+  background-color: #0076b6;
+  box-shadow: 12px 12px 10px 1px rgba(0, 0, 0, 0.526);
+}
+
+label {
+  color: #90e0ef;
+  font-family: cursive;
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-shadow: 2px 2px 1px black;
+}
+
+p {
+  text-align: center;
+  font-weight: 500;
+}
+
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  box-shadow: 2px 2px 5px  inset;
+  background-color: #ade8f4;
+}
+
+input[type=submit] {
+  background-color: #023E8A;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: cursive;
+  letter-spacing: 2px;
+  border: 2px solid #0077B6;
+  box-shadow: 8px 6px 10px 1px rgba(0, 0, 0, 0.526);
+}
+
+input[type=submit]:hover {
+  background-color: #48CAE4;
+  color: #03045e;
+  box-shadow: none;
+}
+
+small {
+  font-family: cursive;
+  font-size: 16px;
+  color: rgb(250, 131, 131);
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 1px black;
+}

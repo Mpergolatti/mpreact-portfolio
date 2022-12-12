@@ -21,10 +21,10 @@ const Contact = () => {
     email: { required: 'Email is required' },
     message: {
       required: 'Message is required',
-      minLength: {
-        value: 25,
-        message: 'Message must contain at least 25 characters'
-      }
+      // minLength: {
+      //   value: 25,
+      //   message: 'Message must contain at least 25 characters'
+      // }
     }
   };
 
@@ -38,8 +38,9 @@ const Contact = () => {
       }
     }
   }
+
   return (
-    <form onSubmit={handleSubmit(handleRegistration, handleError)}>
+    <form className='full_form' onSubmit={handleSubmit(handleRegistration, handleError)}>
       <div>
         <label>Name</label>
         <input name='name' type='text'
@@ -74,8 +75,8 @@ const Contact = () => {
             <p className='error-text'>{errorMessage}</p>
           </div>  
         )}
-
-      <button>Submit</button>
+          <input type='submit' />
+      
     </form>
   );
   
