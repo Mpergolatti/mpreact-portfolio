@@ -29,8 +29,12 @@ ul.header li {
   margin: 0;
 }
 ul.header {
+  display: flex;
+  justify-content: space-around;
   background-color: var(--secondary);
-  padding: 0;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 7px black;
 }
 ul.header li a {
   color: #FFF;
@@ -55,6 +59,27 @@ ul.header li a {
 
 .photo {
   max-width: 300px;
+}
+
+/* Nav section */
+
+.active {
+  background-color: #00b4d8;
+  border-radius: 10px;
+  margin: 2px;
+  box-shadow: 5px 5px 7px  black;
+  border: 1px solid #03045e;
+}
+
+.my_name {
+  color: #ade8f4;
+  text-shadow: 4px 4px 2px black;
+}
+
+/* Project Section */
+
+.project_image {
+  max-width: 200px;
 }
 
 /* Contact Section */
@@ -93,6 +118,10 @@ input[type=text], input[type=email], textarea {
   resize: vertical;
   box-shadow: 2px 2px 5px  inset;
   background-color: #ade8f4;
+  font-size: 16px;
+  font-family: cursive;
+  letter-spacing: 1px;
+  color: #03045e;
 }
 
 input[type=submit] {
