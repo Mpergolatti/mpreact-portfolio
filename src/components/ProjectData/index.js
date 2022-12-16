@@ -7,10 +7,10 @@ function ProjectData(props) {
       <div className='main_div'>
         {props.project.map((project) => (
           
-            <div>
+            <div className='whole_card'>
               <div className='image_div'>
                 <figure className='image_box'>
-                  <a href={project.live} target='_blank' rel="noopener noreferrer" >
+                  <a href={project.live} target='_blank' rel="noopener noreferrer" className='images'>
 
                     <img src={project.images} className='project_picture' alt='Placeholder' />
 
@@ -18,19 +18,22 @@ function ProjectData(props) {
                 </figure>
               </div>
               <div className='info_div'>
-                <p className='' key={project.id}>
+                <p className='p_title' key={project.id}>
                   {project.title}
                 </p>
                 <p>
                 {project.description}
                 </p>
                 <br />
-                Languages: {project.languages}
+                <div className='lang_pack'>
+                Languages -- {project.languages}
                 <br />
-                Packages used: {project.packages}
+                Packages Used -- {project.packages}
                 <br />
-                <div>
-                  <a href={project.repo}>Repo</a>
+                </div>
+                <div className='repo_div'>
+                  <br />
+                  <a href={project.repo} className='repo'>GitHub Repository</a>
                 </div>
               </div>
             </div>

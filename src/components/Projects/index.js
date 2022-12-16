@@ -93,9 +93,9 @@ const project = [
   {
     id: 0,
     title: 'Taskinator',
-    languages: 'javaScript, HTML, CSS',
+    languages: 'JavaScript, HTML, CSS',
     packages: 'N/A',
-    images: require('../../assets/images/coming-soon.jpg'),
+    images: require('../../assets/images/taskinator.jpg'),
     description: 'Track your tasks with our easy to use application. You can add a task and have it in a TO DO section, In Progress section and a Completed section. Keeping track of your every day tasks has never been easier! ',
     repo: 'https://github.com/Mpergolatti/taskinatorOne',
     live: 'https://mpergolatti.github.io/taskinatorOne/'
@@ -103,19 +103,19 @@ const project = [
   {
     id: 1,
     title: 'Code Quiz',
-    languages: 'HTML, CSS, javaScript, Web APIs',
+    languages: 'HTML, CSS, JavaScript, Web APIs',
     packages: 'N/A',
-    images: require('../../assets/images/coming-soon.jpg'),
-    description: 'Come play our code quiz where you can try your luck at our 8 question javaScript, HTML and CSS test! Keep Score and save your high score to the leaderboard!',
+    images: require('../../assets/images/code_quiz.jpg'),
+    description: 'Come play our code quiz where you can try your luck at our 8 question JavaScript, HTML and CSS test! Keep Score and save your high score to the leaderboard!',
     repo: 'https://github.com/Mpergolatti/code-quiz',
     live: 'https://mpergolatti.github.io/code-quiz/'
   },
   {
     id: 2,
     title: 'Password Generator',
-    languages: 'HTML, CSS and javaScript',
+    languages: 'HTML, CSS and JavaScript',
     packages: 'N/A',
-    images: require('../../assets/images/coming-soon.jpg'),
+    images: require('../../assets/images/password_gen.jpg'),
     description: 'Create a randomly generated password that can have uppercase letters, lowercase letters, numbers and symbols! You choose how long you want your password and what should be included in creating it',
     repo: 'https://github.com/Mpergolatti/PasswordGen',
     live: 'https://mpergolatti.github.io/PasswordGen/'
@@ -123,9 +123,9 @@ const project = [
   {
     id: 3,
     title: 'Oh Snap!',
-    languages: 'React, CSS, javaScript',
+    languages: 'React, CSS, JavaScript',
     packages: 'N/A',
-    images: require('../../assets/images/coming-soon.jpg'),
+    images: require('../../assets/images/oh_snap.jpg'),
     description: 'A photography page created for a client that shows off her photos.',
     repo: 'https://github.com/Mpergolatti/photo-port',
     live: 'https://mpergolatti.github.io/photo-port/'
@@ -135,7 +135,7 @@ const project = [
     title: 'Run Buddy',
     languages: 'HTML and CSS',
     packages: 'packages',
-    images: require('../../assets/images/coming-soon.jpg'),
+    images: require('../../assets/images/run_buddy.jpg'),
     description: 'A simple web page for a client that connects people with trainers.',
     repo: 'https://github.com/Mpergolatti/run-buddy',
     live: 'https://mpergolatti.github.io/run-buddy/'
@@ -143,9 +143,9 @@ const project = [
   {
     id: 5,
     title: 'FoodyTrack',
-    languages: 'HTML, CSS, javaScript, Web APIs',
+    languages: 'HTML, CSS, JavaScript, Web APIs',
     packages: 'Edemam API, OpenEmoji API, Materialize',
-    images: require('../../assets/images/coming-soon.jpg'),
+    images: require('../../assets/images/foody_track.jpg'),
     description: 'This is a collaboration project we created to get recipes offline and put them on one page on cards to see, share and save.',
     repo: 'https://github.com/annoyingdroid/FoodyTrack',
     live: 'https://annoyingdroid.github.io/FoodyTrack/'
@@ -155,8 +155,6 @@ const project = [
 function Projects() {
   return(
     <div>
-      <p className=''>Portfolio</p>
-      <br />
       <ProjectData project={project} />
     </div>
   )

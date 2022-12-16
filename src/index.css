@@ -156,15 +156,33 @@ small {
 .main_div {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  border: 2px solid red;
+  justify-content: space-evenly;
   padding: 10px;
   margin: 10px;
 }
 
+.whole_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px solid black;
+  box-shadow: 5px 5px 7px black;
+  border-radius: 15px;
+  margin: 20px;
+  background-color: #023E8A;
+}
+
+.whole_card:hover {
+  box-shadow: 10px 10px 14px black;
+}
+
 .image_div {
+  display: flex;
+  justify-content: center;
   align-content: center;
-  border: 2px solid blueviolet;
+  background-color: #0077B6;
+  border: 1px solid black;
+  border-radius: 15px;
   padding: 10px;
   margin: 10px;
 }
@@ -172,17 +190,62 @@ small {
 .info_div {
   display: flex;
   flex-direction: column;
+  background-color: #0077B6;
+  border-radius: 15px;
   max-width: 400px;
-  border: 2px solid yellow;
+  border: 2px solid black;
   padding: 10px;
   margin: 10px;
+  font-family: cursive;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 .project_picture {
   max-width: 300px;
   max-height: 200px;
+  min-width: 375px;
+  min-height: 275px;
+  border-radius: 15px;
+  border: 2px solid black;
+  box-shadow: 3px 3px 7px black;
 }
 
 .image_box {
 align-content: center;
 }
+
+.images {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+
+.p_title {
+  font-size: 25px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.lang_pack {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.repo {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  text-decoration: none;
+  color: #023E8A;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 2px grey;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.repo:hover {
+  color: #ade8f4;
+}
+
