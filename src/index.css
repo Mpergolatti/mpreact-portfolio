@@ -268,19 +268,23 @@ align-content: center;
 }
 
 .footer {
-
-  border: 2px solid red;
+  border: 1px solid #00b4d8;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 20px;
-  margin: 0;
+  padding: 20px 4.3%;
+  margin: 0 10px;
   position: fixed;
   z-index: 100; 
-  bottom: 0; 
+  bottom: 10px; 
   left: 0;
   width: 90%;
   background-color: #023e8a;
-
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+  font-weight: bold;
+  font-size: 26px;
 
 }
+
+
