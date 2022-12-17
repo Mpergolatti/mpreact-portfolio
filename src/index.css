@@ -272,7 +272,7 @@ align-content: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 20px 4.3%;
+  padding: 8px 4.3%;
   margin: 0 10px;
   position: fixed;
   z-index: 100; 
@@ -282,9 +282,34 @@ align-content: center;
   background-color: #023e8a;
   border-radius: 15px;
   box-shadow: 5px 5px 5px black;
-  font-weight: bold;
-  font-size: 26px;
-
 }
 
+.github {
+  border: 1px solid #00b4d8;
+  background-color: white;
+  border-radius: 50px;
+}
 
+.github:hover {
+  border: 1px solid lime;
+}
+
+.facebook {
+  border: 1px solid #00b4d8;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.facebook:hover {
+  border: 1px solid lime;
+}
+
+.linkedin {
+  border: 1px solid #00b4d8;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.linkedin:hover {
+  border: 1px solid lime;
+}

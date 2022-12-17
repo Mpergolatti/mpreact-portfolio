@@ -4,6 +4,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Clock from 'react-live-clock'
+import { SocialIcon } from 'react-social-icons'
 // import DatePicker from 'react-date-picker'
 
 
@@ -35,9 +36,10 @@ class App extends Component {
         <footer>
           <div className='footer_pin'>
             <ul className='footer'>
-              <li>GitHub</li>
-              <li>Facebook</li>
-              <li>Linked In</li>
+              <SocialIcon className='github' url="https://github.com/Mpergolatti" />
+              <SocialIcon className='facebook' url="https://facebook.com/Mpergolatti" />
+              <SocialIcon className='linkedin' url="https://www.linkedin.com/in/michael-pergolatti/" />
+
               {/* <DatePicker /> */}
             </ul>
           </div>
