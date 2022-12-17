@@ -267,10 +267,6 @@ align-content: center;
   color: #ade8f4;
 }
 
-.footer_pin {
-
-}
-
 .footer {
 
   border: 2px solid red;
@@ -278,5 +274,13 @@ align-content: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 20px;
+  margin: 0;
+  position: fixed;
+  z-index: 100; 
+  bottom: 0; 
+  left: 0;
+  width: 90%;
+  background-color: #023e8a;
+
 
 }
