@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mpreact-portfolio/static/css/main.65632e86.css",
+    "main.js": "/mpreact-portfolio/static/js/main.0f59d608.js",
+    "static/js/787.4ef36354.chunk.js": "/mpreact-portfolio/static/js/787.4ef36354.chunk.js",
+    "static/media/foody_track.jpg": "/mpreact-portfolio/static/media/foody_track.e4002cc99fb9519f758f.jpg",
+    "static/media/Jaime_and_I.jpg": "/mpreact-portfolio/static/media/Jaime_and_I.5b0509f29044eb0093eb.jpg",
+    "static/media/oh_snap.jpg": "/mpreact-portfolio/static/media/oh_snap.aedb4ed64b108ac4f806.jpg",
+    "static/media/password_gen.jpg": "/mpreact-portfolio/static/media/password_gen.08f24b992dce676172f7.jpg",
+    "static/media/mp_resume.pdf": "/mpreact-portfolio/static/media/mp_resume.2b0829db87d9ba600b2c.pdf",
+    "static/media/run_buddy.jpg": "/mpreact-portfolio/static/media/run_buddy.d401b85939967afa8472.jpg",
+    "static/media/taskinator.jpg": "/mpreact-portfolio/static/media/taskinator.855d1c2924f1dc21c6f6.jpg",
+    "static/media/code_quiz.jpg": "/mpreact-portfolio/static/media/code_quiz.94653bfaca7f3adf6b30.jpg",
+    "index.html": "/mpreact-portfolio/index.html",
+    "main.65632e86.css.map": "/mpreact-portfolio/static/css/main.65632e86.css.map",
+    "main.0f59d608.js.map": "/mpreact-portfolio/static/js/main.0f59d608.js.map",
+    "787.4ef36354.chunk.js.map": "/mpreact-portfolio/static/js/787.4ef36354.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65632e86.css",
+    "static/js/main.0f59d608.js"
+  ]
+}
