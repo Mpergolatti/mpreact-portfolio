@@ -3,6 +3,7 @@ import { Route, Routes, NavLink, HashRouter } from 'react-router-dom'
 import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Resume from './components/Resume'
 import Clock from 'react-live-clock'
 import { SocialIcon } from 'react-social-icons'
 // import DatePicker from 'react-date-picker'
@@ -21,6 +22,7 @@ class App extends Component {
             <li><NavLink to='/'>About Me</NavLink></li>
             <li><NavLink to='/Projects'>My Projects</NavLink></li>
             <li><NavLink to='/Contact'>Contact Me</NavLink></li>
+            <li><NavLink to='/Resume'>Resume</NavLink></li>
 
           </ul>
           <div className='content'>
@@ -29,6 +31,7 @@ class App extends Component {
             <Route exact path='/' element={<About />} />
             <Route path='/Projects' element={<Projects />} />
             <Route path='/Contact' element={<Contact />} />
+            <Route path='/Resume' element={<Resume />} />
           </Routes>
 
           </div>
