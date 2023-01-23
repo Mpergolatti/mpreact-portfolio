@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mpreact-portfolio/static/css/main.65632e86.css",
+    "main.css": "/mpreact-portfolio/static/css/main.93ddb96c.css",
     "main.js": "/mpreact-portfolio/static/js/main.0f59d608.js",
     "static/js/787.4ef36354.chunk.js": "/mpreact-portfolio/static/js/787.4ef36354.chunk.js",
     "static/media/foody_track.jpg": "/mpreact-portfolio/static/media/foody_track.e4002cc99fb9519f758f.jpg",
@@ -12,12 +12,12 @@
     "static/media/taskinator.jpg": "/mpreact-portfolio/static/media/taskinator.855d1c2924f1dc21c6f6.jpg",
     "static/media/code_quiz.jpg": "/mpreact-portfolio/static/media/code_quiz.94653bfaca7f3adf6b30.jpg",
     "index.html": "/mpreact-portfolio/index.html",
-    "main.65632e86.css.map": "/mpreact-portfolio/static/css/main.65632e86.css.map",
+    "main.93ddb96c.css.map": "/mpreact-portfolio/static/css/main.93ddb96c.css.map",
     "main.0f59d608.js.map": "/mpreact-portfolio/static/js/main.0f59d608.js.map",
     "787.4ef36354.chunk.js.map": "/mpreact-portfolio/static/js/787.4ef36354.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65632e86.css",
+    "static/css/main.93ddb96c.css",
     "static/js/main.0f59d608.js"
   ]
 }
